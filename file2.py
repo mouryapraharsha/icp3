@@ -12,7 +12,8 @@ class Employee:
 def get_average(list):
 
     x=sum(list)
-    print(x/3)
+    n = len(list)
+    print(x/n)
 
 
 
